@@ -77,6 +77,14 @@ print('\n{:=^80}'.format(' MÉTODO SORT '))
 new_lista.sort()
 print(new_lista)
 
+# USANDO REVERSE COM INDEXÃO
+
+print('='*80)
+print('\n{:=^80}'.format(' REVERSE COM INDEXÃO '))
+new_lista
+print(new_lista)
+print(new_lista[::-1])
+
 
 
 
