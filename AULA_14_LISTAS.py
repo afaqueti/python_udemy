@@ -98,6 +98,7 @@ print('As 3 listas juntas dentro de uma MATRIX: ',matrix)
 print('Retorna qual lista dentro da matriz: ',matrix[2])
 print('Retorna o valor dentro da lista:',matrix[2][1])
 
+# IDENTIFICAR ATRAVÉS DO (FOR) DENTRO DA LISTA, QUAIS REGISTRO DA COLUNA 0 DE TODAS A LISTAS
 first_colun= [row[0] for row in matrix]
 print(first_colun)
 
