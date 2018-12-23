@@ -27,6 +27,11 @@ print('\n',lista2)
 # TIRANDO OS COLCHETES DO PRINT PARA QUE A SAIDA FIQUE LIMPA
 
 print('='*80)
-for i in range(1,11):
-    num = str(lista2)
-    print(num[1:-1])
+num1 = int(input('\nQuantas vezes a lista será repetida? '))
+if num1 > 10:
+    print('O valor digitado é muito alto')
+else:
+    for i in range(1,num1+1):
+        num = str(lista2)
+        print(num[1:-1])
+
