@@ -86,6 +86,24 @@ print(new_lista)
 print(new_lista[::-1])
 
 
+# LISTA DENTRO DE LISTAS
+
+print('='*80)
+print('\n{:=^80}'.format(' lISTA DENTRO DE LISTAS '))
+list_1 = [1,2,3]
+list_2 = [4,5,6]
+list_3 = [7,8,9]
+matrix = [list_1,list_2,list_3]
+print('As 3 listas juntas dentro de uma MATRIX: ',matrix)
+print('Retorna qual lista dentro da matriz: ',matrix[2])
+print('Retorna o valor dentro da lista:',matrix[2][1])
+
+first_colun= [row[0] for row in matrix]
+print(first_colun)
+
+
+
+
 
 
 
