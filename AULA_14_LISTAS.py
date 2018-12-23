@@ -102,6 +102,9 @@ print('Retorna o valor dentro da lista:',matrix[2][1])
 first_colun= [row[0] for row in matrix]
 print(first_colun)
 
+t = ['a','b','c']
+print(t[0:])
+
 
 
 
