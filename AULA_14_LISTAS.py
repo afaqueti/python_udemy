@@ -35,3 +35,10 @@ else:
         num = str(lista2)
         print(num[1:-1])
 
+# TAMANHO DA LISTA
+
+print('='*80)
+print('\n')
+print('Foram informados {} registros na lista 1'.format(len(lista1)))
+print('E {} registros na lista 2'.format(len(lista2)))
+
