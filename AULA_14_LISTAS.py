@@ -18,3 +18,15 @@ print('A string contem {} letras'.format(len(s[2:-2])))
 
 a = lista1 + lista2
 print(a)
+
+print('='*80)
+lista2 = lista2 + ['Alessandro',1,11.15,14]
+print('\n',lista2)
+
+# MULTIPLICAR A LISTA POR UM VALOR USANDO LAÇO DE REPSTIÇÃO
+# TIRANDO OS COLCHETES DO PRINT PARA QUE A SAIDA FIQUE LIMPA
+
+print('='*80)
+for i in range(1,11):
+    num = str(lista2)
+    print(num[1:-1])
