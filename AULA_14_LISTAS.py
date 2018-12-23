@@ -35,10 +35,24 @@ else:
         num = str(lista2)
         print(num[1:-1])
 
-# TAMANHO DA LISTA
+# TAMANHO DA LISTA, UANDO COANDO "(LEN)"
 
 print('='*80)
 print('\n')
 print('Foram informados {} registros na lista 1'.format(len(lista1)))
 print('E {} registros na lista 2'.format(len(lista2)))
+
+
+# MÉTODOS DE LISTAS
+
+# O MÉTODO (.APPEND) INCLUI UM OBJETO AO FINAL DA LISTA
+print('='*80)
+lista1.append('Mais um valor')
+print('Método .APPEND ---- ',lista1)
+
+# O MÉTODP (.POP)
+print('='*80)
+print('Método .POP ------ ',lista1.pop())
+
+
 
