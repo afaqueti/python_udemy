@@ -50,9 +50,36 @@ print('='*80)
 lista1.append('Mais um valor')
 print('Método .APPEND ---- ',lista1)
 
-# O MÉTODP (.POP)
+# O MÉTODP (.POP) RETORNA SEMPRE O ULTIMO VALOR
 print('='*80)
 print('Método .POP ------ ',lista1.pop())
+
+
+print(lista1.pop(0))
+
+v = lista1.pop(0)
+print(lista1)
+print(v)
+
+# MÉTODO REVERSE, INVERTE A SEQUENCIA DA LISTA
+
+print('='*80)
+print('\n{:=^80}'.format(' MÉTODO REVERSE '))
+new_lista = ['a','e','x','b','c']
+print(new_lista)
+new_lista.reverse()
+print(new_lista)
+
+# MÉTODO SORT, ORDENA EM FORMA ALFABETICA OU SEQUENCIAL
+
+print('='*80)
+print('\n{:=^80}'.format(' MÉTODO SORT '))
+new_lista.sort()
+print(new_lista)
+
+
+
+
 
 
 
