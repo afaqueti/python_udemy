@@ -34,6 +34,9 @@ print(list(my_dict3.values()))
 
 print(my_dict.items(),my_dict3.items())
 
+d = {'k1': [1,2,3]}
+print(d.items())
+
 
 
 
