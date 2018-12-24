@@ -21,7 +21,8 @@ print(my_dict3['chave3'])
 # MÉTODOS
 
 # METODOS (.KEIS) INFORMA TODAS AS CHAVES DENTRO DO SEU DICIONARIO.
-print(my_dict.keys())
+print('Esse método retorna quantas chaves foram criadas',my_dict.keys())
+print('O list retorna sem o dict_keys',list(my_dict.keys()))
 
 
 
