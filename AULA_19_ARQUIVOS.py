@@ -12,10 +12,16 @@ print(my_file)
 print(my_file.read())
 
 
+
 #MÉTODO (.seek)
 #RETORNA O INCIO DO CURSOR, POIS O PYTHON NECESSITA SABER ONDE INICIAR A LEITURA DA LINHA.
-print(my_file.seek(0))
+
 
 #MÉTODO (.readline)
 # RETORNA O CONTEUDO DO ARQUIVO APÓS A EXECUÇÃO DO (.seek), POIS O CURSO INCIOU DO ZERO.
-print(my_file.readline())
+
+
+
+
+
+
