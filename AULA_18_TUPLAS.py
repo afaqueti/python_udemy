@@ -1,5 +1,12 @@
 # TUPLAS
 # AS TUPLAS SÃO INICIADAS COM (PARENTESES) DIFERENTE DAS LISTAS.
 
-t = (1,2,3)
+t = (1,2,3,'one')
 print(t)
+
+# INFORMA A POSIÇÃO QUE 'one' SE ENCONTRA.
+print(t.index('one'))
+
+# RETORNA QUANTOS REGISTROS SÃO DUPLICADOS DENTRO DA TUPLA.
+tt = (12,12,12,12,1,2,3)
+print(tt.count(12))
