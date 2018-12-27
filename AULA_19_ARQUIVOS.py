@@ -1,4 +1,5 @@
 # ARQUIVOS
 
+# NECESSÁRIO QUE O ARQUIVO SEJA CRIADO NA RAIZ DO DIRETORIO REFERENTE AO PROJETO
 my_file = open('teste.txt')
 print(my_file)
