@@ -12,3 +12,11 @@ print(x)
 lista = [11,11,11,22,22,22,4,4,5,5,8,8,8,9,10,10]
 setlista = set(lista)
 print(setlista)
+
+# MÉTODO BOOLEANO
+a = str(input('Digite uma letrar: '))
+print(a)
+if a != 'a':
+    print('não ok')
+else:
+    print('ok')
