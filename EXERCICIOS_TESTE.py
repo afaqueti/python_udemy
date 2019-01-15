@@ -24,6 +24,18 @@ print('Lista Gerada',ss)
 print('Ultimo número da lista é {}'
       '\nportanto a ultima letra é {}:'.format(ss.pop(),s[res:len(s)]))
 
+print('='*80)
+#Listas
+#Crie esta lista [0,0,0] duas formas diferentes.
+
+lista1 = [0,0]
+lista2 = [0]
+print(lista1)
+print(lista2)
+
+list = lista1 + lista2
+print('soma das listas',list)
+
 
 
 
