@@ -36,6 +36,18 @@ print(lista2)
 list = lista1 + lista2
 print('soma das listas',list)
 
+print('='*80)
+l = [1,2,[3,4,'hello']]
+alt = l[2][2:3]
+alt = str('goodbye')
+print('String "hello" na lista alterada \nDE {} \nPARA {}'.format(l[2][2:3],alt))
+
+ll = [5,3,4,6,1]
+ll.sort()
+print(ll)
+
+
+
 
 
 
