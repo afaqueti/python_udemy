@@ -57,8 +57,18 @@ print(d['k1']['k2'])
 
 
 d = {'k1':[{'nest_key':['this is deep',['hello']]}]}
-print(d['k1':['nest_key']])
+print(d['k1'][0]['nest_key'][1])
 
+
+d = {'k1':[1,2,{'k2':['this is tricky',{'tough':[1,2,['hello']]}]}]}
+print(d['k1'][2]['k2'][1]['tough'][2])
+
+li = ['lucas','luan']
+n = str(input('Entre com o nome de seu amigo: '))
+if n == 'lucas' and 'luan' and 'erick' and 'bruno' and 'gian':
+    print('Ele é seu amigo: ',n)
+else:
+    print('não é seu amigo')
 
 
 
