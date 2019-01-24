@@ -63,12 +63,21 @@ print(d['k1'][0]['nest_key'][1])
 d = {'k1':[1,2,{'k2':['this is tricky',{'tough':[1,2,['hello']]}]}]}
 print(d['k1'][2]['k2'][1]['tough'][2])
 
-li = ['lucas','luan']
-n = str(input('Entre com o nome de seu amigo: '))
-if n == 'lucas' and 'luan' and 'erick' and 'bruno' and 'gian':
-    print('Ele é seu amigo: ',n)
-else:
-    print('não é seu amigo')
+
+l = [1,2,2,33,4,4,11,22,3,3,2]
+setlista = set(l)
+print(setlista)
+
+# Duas listas aninhadas
+l_one = [1,2,[3,4]]
+l_two = [1,2,{'k1':4}]
+
+# Verdadeiro ou falso?
+l_one[2][0] >= l_two[2]['k1']
+
+print(l_one[2][0])
+print(l_two[2]['k1'])
+
 
 
 
