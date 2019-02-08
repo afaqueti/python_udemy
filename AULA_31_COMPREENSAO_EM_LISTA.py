@@ -19,3 +19,11 @@ lista = [variavel_igual for variavel_igual in 'alessandro']
 print(lista)
 print(len(lista))
 
+# CONVERSÃO DE TEMPERATURA DE CELSIUS PARA FAHRENHEIT
+
+cel = [0, 10,15,20,30,50,100]
+far = [temp for temp in cel]
+print(far)
+far = [(temp * (9/5) + 32) for temp in cel]
+print(far)
+
