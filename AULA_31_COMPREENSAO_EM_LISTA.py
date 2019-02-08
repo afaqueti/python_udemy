@@ -14,3 +14,8 @@ print(x3)
 x4 = [i for i in range(0,21) if i % 2 == 0]
 print(x4)
 
+lista = []
+lista = [letter for letter in 'alessandro']
+print(lista)
+print(len(lista))
+
