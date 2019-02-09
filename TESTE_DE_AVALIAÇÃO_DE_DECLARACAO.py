@@ -12,12 +12,6 @@ for i in s:
     if i[0] == 's':
         print(i)
 
-
-for i in st.split():
-    if i[0] != 's':
-        print(i)
-
-
 #===================================================================================================
 
 '''
@@ -33,4 +27,16 @@ for i in range(0,11,2):
 USE A COMPREENSÃO DE LISTA PARA CRIAR UMA LISTA DE TODOS OS NÚMEROS ENTRE 1 A 50 QUE SÃO DIVISIVEIS POR 3
 '''
 
+x = [i for i in range(1,51) if i % 3 == 0]
+print('\n',x)
 
+#===================================================================================================
+
+# PERCORRA A STRING ABAIXO E SE O COMPRIMENTO DE UMA PALAVRA FOR PAR IMPRAMA "è par"
+
+st = 'Print only the word that start with s in this sentence'
+s = st.split()
+for i in s:
+    ta = len(i)
+    if ta % 2 == 0:
+        print('A palavra ({}) é par'.format(i))
