@@ -39,4 +39,5 @@ print('=' * 80)
 
 def subtrair(n1, n2):
     return n1 - n2
-print(subtrair(10, 2))
+x = subtrair(120,15)
+print(x)
