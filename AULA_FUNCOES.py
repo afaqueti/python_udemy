@@ -38,6 +38,9 @@ print('=' * 80)
 
 
 def subtrair(n1, n2):
+    """
+    COMANDO RETORN IRÁ RETORNA A RESPOSTA DA MINHAD FUNÇÃO.
+    """
     return n1 - n2
 x = subtrair(120,15)
 print(x)
