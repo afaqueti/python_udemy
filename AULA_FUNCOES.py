@@ -45,3 +45,20 @@ def subtrair(n1, n2):
     return n1 - n2
 x = subtrair(120,15)
 print(x)
+
+
+print('='*80)
+def primo(num):
+    """
+    :param num:
+    :return: Retornará os nmero primos até o primeiro que não for primo.
+             Portanto o 'break' ira para o comando FOR.
+    """
+    for i in range(2,num):
+        if num % i == 0:
+            print('Não é primo')
+            break
+    else:
+        print('É primo')
+
+primo(117)
