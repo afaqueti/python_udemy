@@ -49,7 +49,7 @@ print('='*80)
 
 p = lambda s: s[1]
 
-print(p('Ola Mundo'))
+print(p([1,2,3,4,5]))
 
 def lamb(p):
     p = lambda s: s[4:7]
