@@ -34,9 +34,15 @@ print('='*80)
 # A FUNÇÃO "LAMBDA" É UM METODO E CRIAÇÃO DE FUNÇÃO OTMIZADA.
 
 x = lambda num: num ** 2
-print(x(10))
+print(x(30))
+
 
 
 par = lambda x: x % 2 == 0
-print(par(2))
+xx = par(23)
+if xx == True:
+    print('par')
+else:
+    print('impar')
+
 
