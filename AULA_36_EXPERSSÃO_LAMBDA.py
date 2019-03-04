@@ -19,13 +19,16 @@ print('='*80)
 def square_3(num): return num ** 2
 print(square_3(12))
 
+print('='*80)
 def par(x):
     res = x % 2 == 0
     return res
-if par(3) == True:
+if par(2) == True:
     print('par')
 else:
     print('impar')
+
+print('='*80)
 
 
 # A FUNÇÃO "LAMBDA" É UM METODO E CRIAÇÃO DE FUNÇÃO OTMIZADA.
