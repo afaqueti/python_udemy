@@ -55,3 +55,8 @@ def lamb(p):
     p = lambda s: s[4:7]
     return p ('Isso ai')
 print(lamb(p))
+
+# INVERTER EXPRESSÕES
+
+p = lambda s: s[::-1]
+print(p('Ola Mundo!'))
